@@ -7,7 +7,7 @@ import java.util.Scanner;
 import com.mycompany.basicmathoperations.oop.Multiply;
 
 /**
- * @author ilker
+ * @author MaryBeth
  *
  */
 public class MainEntry4oop {
@@ -27,6 +27,20 @@ public class MainEntry4oop {
 		number1 = scanner.nextFloat();
 		System.out.println("Enter number 2");
 		number2 = scanner.nextFloat();
+		
+		//Add block
+		Add adder = new AddOperatorFor2numbers(number1, number2);
+		result = adder.add(number1, number2);
+		System.out.printf("result of add(float, float) is %.2f%n", result);
+		result = adder.add2numbers();
+		System.out.printf("result of add2numbers() is %.2f%n", result);
+		
+		//Subtract block
+		Subtract subtracter = new SubtractOperatorFor2numbers(number1, number2);
+		result = subtracter.subtract(number1, number2);
+		System.out.printf("result of subtract(float, float) is %.2f%n", result);
+		result = subtracter.subtract2numbers();
+		System.out.printf("result of subtract2numbers() is %.2f%n", result);
 		
 		// Multiply block
 		Multiply multiplier = new MultiplyOperatorFor2numbers(number1, number2);

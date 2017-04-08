@@ -4,7 +4,7 @@
 package com.mycompany.basicmathoperations.oop;
 
 /**
- * @author ilker
+ * @author MaryBeth
  *
  */
 public abstract class OperatorFor2numbers implements Has2numbers {

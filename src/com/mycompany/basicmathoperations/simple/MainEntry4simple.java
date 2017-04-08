@@ -29,6 +29,16 @@ public class MainEntry4simple {
 		System.out.println("Enter number 2");
 		number2 = scanner.nextInt();
 		
+		//Add block
+		Add adder = new Add();
+		result = adder.add(number1, number2);
+		System.out.printf("add result is %.2f%n", result);
+		
+		//Subtract block
+		Subtract subtracter = new Subtract();
+		result = subtracter.subtract(number1, number2);
+		System.out.printf("subtract result is %.2f%n", result);
+		
 		// Multiply block
 		Multiply multiplier = new Multiply();
 		result = multiplier.multiply(number1, number2);
