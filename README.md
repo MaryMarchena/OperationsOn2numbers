@@ -2,17 +2,17 @@
 -This project shows how to do simple math on two number.
 -Both OOP and simple
 
-##When run
+## When run
 -The program will ask for 2 numbers from the user
 -It will then do the following and output each result:
 
-###Add 
+### Add 
 -num1 + num2
 
-###Subtract
+### Subtract
 -num1 - num2
 
-###Multiply
+### Multiply
 -num1 * num2
 
 ###Divide
